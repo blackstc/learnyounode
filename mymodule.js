@@ -14,6 +14,7 @@ module.exports = function(directoryName, fileExtension, callback){
         }
       });
     }
+    //need to pass in null as first argument in callback otherwise it will return an error
     callback(null, array);
   });
 };
